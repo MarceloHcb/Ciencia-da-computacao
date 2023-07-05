@@ -64,5 +64,9 @@ characters_file.writelines(LINES)
 # characters_file.write("Bala-Tik\n")
 # characters_file.write("Ello Asty\n")
 # characters_file.write("Jessika Pava\n")
+with open('meus-personagens.txt', mode="r") as characters_file:
+    for line in characters_file:
+        print(line, 'criado com sucesso!')
+    
 print("Arquivo criado com sucesso!")
 characters_file.close()
