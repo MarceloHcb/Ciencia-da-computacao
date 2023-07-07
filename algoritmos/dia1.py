@@ -1,9 +1,6 @@
 def number_substituition(numbers:list[int]):
     for i in range(len(numbers)):
-       ...
-
-
-
+        ...
 
 
 def test_number_substituition():
