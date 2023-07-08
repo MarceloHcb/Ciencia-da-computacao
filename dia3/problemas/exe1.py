@@ -8,11 +8,16 @@ def pairs_in_list(n):
         count += 1
     return f'Os números são {list_numbers} somando total de {count} pares!'
 
-def recursive_pairs_in_list(n):    
+
+#RECURSIVO
+def recursive_pairs_in_list(n):  
+    #condição de parada
     if n == 1:
         return 0
+    #atendendo condição da função
     elif n % 2 == 0:      
       return 1 + recursive_pairs_in_list(n-1)
+    #condição contraria da função
     else:
         return recursive_pairs_in_list(n-1)
 
