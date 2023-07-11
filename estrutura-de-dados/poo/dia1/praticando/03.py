@@ -34,7 +34,6 @@ class Retangulo(FiguraGeometrica):
     def perimetro(self):
         return 2 * (self.base + self.altura)
 
-
 class Circulo(FiguraGeometrica):
     def __init__(self, raio):
         self.raio = raio
@@ -44,3 +43,4 @@ class Circulo(FiguraGeometrica):
 
     def perimetro(self):
         return 2 * PI * self.raio
+    

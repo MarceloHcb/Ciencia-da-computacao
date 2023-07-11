@@ -1,0 +1,17 @@
+[
+  {
+  "name": "João Silva",
+  "email": "joao.silva@example.com",
+  "address": "Rua das Flores, 123"
+  }, 
+  {
+  "name": "Maria Santos",
+  "email": "maria.santos@example.com",
+  "address": "Av. Brasil, 10"
+  },
+  {
+  "name": "Ana Dias",
+  "email": "ana.dias@example.com",
+  "address": "Rua Piracicaba, 84"
+  }
+]
