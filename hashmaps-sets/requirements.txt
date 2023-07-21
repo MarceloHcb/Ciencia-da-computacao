@@ -1,0 +1,3 @@
+black==21.9b0            # Formatação automática de código Python
+flake8==4.0.1            # Ferramenta de análise de qualidade de código Python
+pytest==6.2.5            # Biblioteca para escrever testes em Python

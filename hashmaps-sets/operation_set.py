@@ -1,0 +1,31 @@
+list_a = [1,3,4,3,5,1]
+list_b = [2,9,4,5,9,2]
+
+set_a = set(list_a)
+set_b = set(list_b)
+
+print(set_a)
+print(set_b)
+print(set_a.union(set_b))
+print(set_a.intersection(set_b))
+print(set_a.difference(set_b))
+print(set_b.difference(set_a))
+print(set_a.symmetric_difference(set_b))
+print(set_a.issubset(set_b))
+print(set_a.issuperset(set_b))
+print(set_a.isdisjoint(set_b))
+print(set_a.add(6))
+print(set_a == set_b) 
+print(set_a.remove(6))
+print(set_a == set_b)
+print(set_a.pop())
+print(set_a == set_b)
+print(set_a.clear())
+print(set_a == set_b)
+print(set_a.update(set_b))
+print(set_a == set_b)
+print(set_a.discard(1))
+print(set_a == set_b)
+print(set_a.discard(1))
+print(set_a == set_b)
+
